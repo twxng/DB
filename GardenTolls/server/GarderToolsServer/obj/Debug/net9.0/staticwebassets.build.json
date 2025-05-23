@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "HjcIRMTJ0gpM1QZZ2ExgRGyoLHPoWJxTTD3n9U4dP+U=",
+  "Source": "GarderToolsServer",
+  "BasePath": "_content/GarderToolsServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

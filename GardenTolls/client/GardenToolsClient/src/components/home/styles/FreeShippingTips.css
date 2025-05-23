@@ -1,0 +1,41 @@
+.free-shipping-tips {
+  display: flex;
+	/* height: 100px; */
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  background-color: rgba(82, 173, 96, 0.1);
+  border-top: 1px solid rgba(82, 173, 96, 0.2);
+  border-bottom: 1px solid rgba(82, 173, 96, 0.2);
+  color: rgb(35, 120, 48);
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  margin-bottom: 20px;
+}
+
+.free-shipping-tips-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.free-shipping-tips-icon {
+  font-size: 24px;
+  color: rgb(35, 120, 48);
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .free-shipping-tips {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  
+  .free-shipping-tips-icon {
+    font-size: 20px;
+  }
+} 

@@ -1,0 +1,113 @@
+.store-advantages {
+  padding: 4rem 2rem;
+  background: rgb(23, 33, 25);
+  position: relative;
+  overflow: hidden;
+	margin-top: -20px;
+}
+
+.advantages-title {
+  text-align: center;
+  font-size: 2.6rem;
+  color: rgb(250, 235, 215);
+  margin-bottom: 3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 16px rgba(250,235,215,0.12);
+  position: relative;
+  z-index: 2;
+}
+
+.advantages-title::after {
+  content: '';
+  display: block;
+  margin: 1.2rem auto 0 auto;
+  width: 80px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgba(250,235,215,0.7) 0%, rgba(250,235,215,0.1) 100%);
+}
+
+.advantages-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 3rem;
+	max-width: 1400px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+
+.advantage-card {
+	background: rgba(250, 235, 215, 0.08);
+	border-radius: 18px;
+	box-shadow: 0 8px 32px 0 rgba(34, 61, 43, 0.18);
+	-webkit-backdrop-filter: blur(8px);
+	backdrop-filter: blur(8px);
+	border: 1.5px solid rgba(250, 235, 215, 0.35);
+	padding: 2.5rem 1.5rem 2rem 1.5rem;
+	width: 320px;
+	text-align: center;
+	transition: transform 0.35s cubic-bezier(.4, 2, .3, 1), box-shadow 0.35s, border 0.3s;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.advantage-card:hover {
+  transform: translateY(-10px) scale(1.03) rotate(-1deg);
+  box-shadow: 0 12px 32px 0 rgba(250,235,215,0.22), 0 2px 8px 0 #e6b6e6;
+  border: 2.5px solid rgb(250,235,215);
+}
+
+.advantage-icon {
+  font-size: 3.2rem;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+  color: rgb(250, 235, 215);
+}
+
+.advantage-card:hover .advantage-icon {
+  transform: scale(1.18) rotate(-8deg);
+  filter: drop-shadow(0 4px 16px #e6b6e6);
+}
+
+@keyframes icon-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px) scale(1.08); }
+}
+
+.advantage-title {
+  font-size: 1.6rem;
+  color: rgb(250, 235, 215);
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.advantage-description {
+  color: #e6e1d5;
+  line-height: 1.7;
+  font-size: 1.08rem;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .store-advantages {
+    padding: 2.2rem 0.5rem;
+  }
+  .advantages-title {
+    font-size: 2rem;
+  }
+  .advantages-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .advantage-card {
+    padding: 1.5rem 0.7rem 1.2rem 0.7rem;
+  }
+} 

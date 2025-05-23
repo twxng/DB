@@ -1,0 +1,240 @@
+/* Стилі для чеку замовлення */
+.receipt-dialog {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid rgba(127, 255, 212, 0.2) !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+
+.receipt-header {
+  background-color: #172119 !important;
+  color: #7fffd4 !important;
+  border-bottom: 1px solid rgba(127, 255, 212, 0.5) !important;
+  font-weight: bold !important;
+  padding: 16px 24px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.receipt-header-icon {
+  margin-right: 8px !important;
+}
+
+.receipt-content {
+  padding: 24px !important;
+  background-color: #ffffff !important;
+}
+
+.receipt-title {
+  font-weight: bold !important;
+  color: #172119 !important;
+  text-align: center !important;
+  margin-bottom: 8px !important;
+  font-size: 1.25rem !important;
+}
+
+.receipt-shop-name {
+  text-align: center !important;
+  color: #333333 !important;
+  margin-bottom: 4px !important;
+  font-size: 0.875rem !important;
+}
+
+.receipt-tax-id {
+  text-align: center !important;
+  color: #333333 !important;
+  margin-bottom: 16px !important;
+  font-size: 0.875rem !important;
+}
+
+.receipt-divider {
+  margin: 16px 0 !important;
+  background-color: rgba(0, 0, 0, 0.12) !important;
+  height: 1px !important;
+  border: none !important;
+}
+
+.receipt-info-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 8px !important;
+}
+
+.receipt-info-right {
+  text-align: right !important;
+}
+
+.receipt-label {
+  font-weight: bold !important;
+  color: #172119 !important;
+  font-size: 0.875rem !important;
+}
+
+.receipt-value {
+  color: #0e531f !important;
+  font-weight: normal !important;
+  font-size: 0.875rem !important;
+}
+
+.receipt-table-container {
+  margin-bottom: 16px !important;
+  border-radius: 4px !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+.receipt-table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+}
+
+.receipt-table-head {
+  background-color: #f0f0f0 !important;
+}
+
+.receipt-table-header-cell {
+  padding: 8px !important;
+  font-weight: bold !important;
+  color: #172119 !important;
+  text-align: left !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  font-size: 0.75rem !important;
+}
+
+.receipt-table-header-cell-right {
+  text-align: right !important;
+}
+
+.receipt-table-header-cell-center {
+  text-align: center !important;
+}
+
+.receipt-table-row {
+  background-color: #ffffff !important;
+}
+
+.receipt-table-row:nth-child(odd) {
+  background-color: #f9f9f9 !important;
+}
+
+.receipt-table-cell {
+  padding: 8px !important;
+  color: #0e531f !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  font-size: 0.75rem !important;
+}
+
+.receipt-table-cell-right {
+  text-align: right !important;
+}
+
+.receipt-table-cell-center {
+  text-align: center !important;
+}
+
+.receipt-total-row {
+  background-color: #f5f5f5 !important;
+}
+
+.receipt-total-label {
+  padding: 8px !important;
+  text-align: right !important;
+  font-weight: bold !important;
+  color: #172119 !important;
+  font-size: 0.875rem !important;
+}
+
+.receipt-total-value {
+  padding: 8px !important;
+  text-align: right !important;
+  font-weight: bold !important;
+  color: #172119 !important;
+  font-size: 0.875rem !important;
+}
+
+.receipt-customer-info {
+  margin-bottom: 8px !important;
+}
+
+.receipt-payment-info {
+  margin-bottom: 8px !important;
+}
+
+.receipt-thank-you {
+  text-align: center !important;
+  margin-top: 16px !important;
+  font-style: italic !important;
+  color: #0e531f !important;
+  font-size: 0.875rem !important;
+}
+
+.receipt-footer {
+  padding: 16px 24px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: #f5f5f5 !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+.receipt-close-button {
+  color: #ffffff !important;
+  border: 1px solid rgba(23, 33, 25, 0.5) !important;
+  border-radius: 4px !important;
+  padding: 6px 16px !important;
+  text-transform: uppercase !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.receipt-close-button:hover {
+  background-color: rgb(0, 31, 6) !important;
+}
+
+.receipt-print-button {
+  background-color: #172119 !important;
+  color: #7fffd4 !important;
+  border-radius: 4px !important;
+  padding: 6px 16px !important;
+  text-transform: uppercase !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease-in-out !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+.receipt-print-button:hover {
+  background-color: #0e531f !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Стилі для друку */
+@media print {
+  .receipt-dialog {
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
+  .receipt-header {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #000000 !important;
+  }
+  
+  .receipt-footer {
+    display: none !important;
+  }
+  
+  .receipt-print-button {
+    display: none !important;
+  }
+  
+  .receipt-close-button {
+    display: none !important;
+  }
+} 
